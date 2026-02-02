@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadhaar Pulse | National Analytics Platform</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="app-header">
+        <div class="container flex justify-between unselectable" style="width: 100%;">
+            <div class="flex items-center gap-md">
+                <i data-lucide="building-2" style="color: var(--color-brand);"></i>
+                <span class="font-semibold" style="letter-spacing: -0.01em;">Aadhaar Pulse</span>
+                <span class="text-xs text-muted"
+                    style="border-left: 1px solid var(--color-border); padding-left: 12px;">Official Analytics
+                    Portal</span>
+            </div>
+            <nav class="flex gap-md">
+                <a href="index.html" class="nav-link active">Overview</a>
+                <a href="dashboard.html" class="nav-link">Analytics Dashboard</a>
+                <a href="framework.html" class="nav-link">Data & Governance</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Executive Overview -->
+    <main>
+        <section class="hero-section" style="background: white;">
+            <div class="container">
+                <div class="section-label">Executive Brief</div>
+                <h1 class="hero-headline">Enhancing Digital Governance<br>Through Data-Driven Intelligence</h1>
+                <p class="hero-sub">
+                    A comprehensive analytics platform for monitoring authentication efficacy, service delivery
+                    reliability, and biometric performance across the Aadhaar ecosystem.
+                </p>
+                <div class="flex gap-md">
+                    <a href="dashboard.html" class="btn btn-primary">Explore Insights Dashboard <i
+                            data-lucide="arrow-right" style="width: 16px; margin-left: 8px;"></i></a>
+                    <a href="framework.html" class="btn btn-secondary">Read Methodology</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- KPI Ticker / Snapshot -->
+        <section class="container" style="margin-top: -40px; position: relative; z-index: 10;">
+            <div class="card kpi-row"
+                style="border: 1px solid var(--color-border); background: white; padding: var(--space-lg) var(--space-xl);">
+                <div>
+                    <div class="kpi-label">Total Authentications (YTD)</div>
+                    <div class="kpi-value">14.2 Bn</div>
+                    <div class="kpi-change trend-up"><i data-lucide="trending-up" style="width: 14px;"></i> 4.5% YoY
+                    </div>
+                </div>
+                <div>
+                    <div class="kpi-label">National Success Rate</div>
+                    <div class="kpi-value">92.8%</div>
+                    <div class="kpi-change trend-neutral"><i data-lucide="minus" style="width: 14px;"></i> Stable</div>
+                </div>
+                <div>
+                    <div class="kpi-label">Active Terminals</div>
+                    <div class="kpi-value">3.4 Mn</div>
+                    <div class="kpi-change trend-up"><i data-lucide="arrow-up" style="width: 14px;"></i> 12k New</div>
+                </div>
+                <div>
+                    <div class="kpi-label">Data Latency</div>
+                    <div class="kpi-value">
+                        < 200ms</div>
+                            <div class="kpi-change trend-up" style="color: var(--color-success);"><i data-lucide="check"
+                                    style="width: 14px;"></i> Optimal</div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Impact & Policy -->
+        <section class="container" style="padding: var(--space-2xl) var(--space-lg);">
+            <div class="grid" style="grid-template-columns: 1fr 1fr; gap: var(--space-2xl);">
+                <div>
+                    <h2 class="section-label" style="color: var(--color-brand); margin-bottom: var(--space-lg);">Policy
+                        Impact</h2>
+                    <h3 style="font-size: 1.75rem; margin-bottom: var(--space-md);">Reducing Exclusion Errors</h3>
+                    <p class="doc-text">
+                        By granularly analyzing failure rates at the sub-district level, Aadhaar Insights enables
+                        targeted deployment of iris scanners and alternative authentication mechanisms in regions with
+                        high manual labor populations, directly reducing exclusion in PDS distribution.
+                    </p>
+                    <div
+                        style="margin-top: var(--space-lg); border-left: 3px solid var(--color-brand); padding-left: var(--space-md);">
+                        <p class="font-medium">"Data-driven intervention has improved authentication success rates by
+                            12% in pilot districts."</p>
+                        <p class="text-sm text-muted" style="margin-top: 8px;">— Ministry of Electronics & IT (Simulated
+                            Quote)</p>
+                    </div>
+                </div>
+                <div class="grid" style="grid-template-columns: 1fr 1fr; gap: var(--space-md);">
+                    <div class="card" style="padding: var(--space-md);">
+                        <i data-lucide="shield-check"
+                            style="color: var(--color-brand); margin-bottom: var(--space-md);"></i>
+                        <h4 class="font-medium">Fraud Detection</h4>
+                        <p class="text-sm text-muted" style="margin-top: 8px;">Real-time anomaly detection for
+                            zero-trust security compliance.</p>
+                    </div>
+                    <div class="card" style="padding: var(--space-md);">
+                        <i data-lucide="users" style="color: var(--color-brand); margin-bottom: var(--space-md);"></i>
+                        <h4 class="font-medium">Inclusivity</h4>
+                        <p class="text-sm text-muted" style="margin-top: 8px;">Monitoring demographic parity across
+                            gender and age groups.</p>
+                    </div>
+                    <div class="card" style="padding: var(--space-md);">
+                        <i data-lucide="zap" style="color: var(--color-brand); margin-bottom: var(--space-md);"></i>
+                        <h4 class="font-medium">Efficiency</h4>
+                        <p class="text-sm text-muted" style="margin-top: 8px;">Optimizing server load balancing based on
+                            peak usage hours.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team -->
+        <section style="background: var(--color-bg-subtle); padding: var(--space-2xl) 0;">
+            <div class="container text-center">
+                <h2 class="section-label">Contributors</h2>
+                <div class="flex" style="justify-content: center; gap: var(--space-xl); margin-top: var(--space-lg);">
+                    <div class="text-left">
+                        <div class="font-semibold">Priya Sharma</div>
+                        <div class="text-xs text-muted">Data Scientist</div>
+                    </div>
+                    <div class="text-left">
+                        <div class="font-semibold">Rahul Verma</div>
+                        <div class="text-xs text-muted">Systems Architect</div>
+                    </div>
+                    <div class="text-left">
+                        <div class="font-semibold">Amit Patel</div>
+                        <div class="text-xs text-muted">Policy Analyst</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="app-footer">
+        <div class="container footer-grid">
+            <div>
+                <div class="font-semibold" style="margin-bottom: var(--space-sm);">Aadhaar Pulse</div>
+                <p class="text-sm text-muted">
+                    Built for the National Open Government Data Hackathon 2026. <br>
+                    Utilizing anonymized datasets from data.gov.in.
+                </p>
+            </div>
+            <div class="text-sm text-muted" style="text-align: right;">
+                <p>© 2026 Team Pulse. All Rights Reserved.</p>
+                <div class="flex gap-md" style="justify-content: flex-end; margin-top: var(--space-sm);">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
